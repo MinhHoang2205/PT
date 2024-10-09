@@ -2,6 +2,12 @@
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+<head>
+    <title>I love you</title>
+    <meta name="Keywords" content="Heart_Code ,Minh_Hoang_Code">
+    <meta name="Description" content="Heart_Code, HTML Code ,Hoang_Code programmer, GitHub_MinhHoang2205 Project">
+    <!-- github.com/MinhHoang2205/PT/Trai_Tim -->
+</head>
 
 <body> <canvas id="canvas"></canvas>
     <style type="text/css">
@@ -23,21 +29,16 @@
 
         var fontSize = 16;
         var columns = canvas.width / fontSize;
-        // 用于计算输出文字时坐标，所以长度即为列数
         var drops = [];
-        //初始值
         for (var x = 0; x < columns; x++) {
             drops[x] = 1;
         }
 
         function draw() {
-            //让背景逐渐由透明到不透明
             ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
-            //文字颜色
             ctx.fillStyle = '#f584b7';
             ctx.font = fontSize + 'px arial';
-            //逐行输出文字
             for (var i = 0; i < drops.length; i++) {
                 var text = texts[Math.floor(Math.random() * texts.length)];
                 ctx.fillText(text, i * fontSize, drops[i] * fontSize);
@@ -58,7 +59,7 @@
 <HTML>
 
 <HEAD>
-    <TITLE> love</TITLE>
+    <TITLE>love</TITLE>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <META NAME="Generator" CONTENT="EditPlus">
     <META NAME="Author" CONTENT="">
@@ -92,7 +93,7 @@
         h4 {
             font-family: "STKaiti";
             font-size: 40px;
-            color: #f584b7;
+            color: #f33e8f;
             position: relative;
             top: -70px;
             left: -65px;
@@ -102,9 +103,9 @@
 
 <body>
     <div id="child">
-        <h4>💗我永远为你着迷</h4>
+        <h4>💗I Love You💗</h4>
     </div>
-    <!--这里写名字❤！！！-->
+    <!--❤I Love You❤！！！-->
     <canvas id="pinkboard"></canvas>
     <!-- <canvas id= "canvas"></canvas>  -->
     <script>
@@ -350,12 +351,7 @@
     </script>
 
 </BODY>
-<!--                           
-<audio controls>
-  <source src="Alan Walker-Faded.mp3" type="audio/ogg">
-  <source src="Alan Walker-Faded.mp3" type="audio/mpeg">
-</audio >
-     -->
+
 
 
 </HTML>
